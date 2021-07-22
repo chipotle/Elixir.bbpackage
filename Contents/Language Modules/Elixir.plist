@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+
+	<key>BBLMLanguageDisplayName</key>
+	<string>Elixir</string>
+
+	<key>BBLMLanguageCode</key>
+	<string>elxr</string>
+	
+	<key>BBLMFilenameExtensions</key>
+	<array>
+		<string>ex</string>
+		<string>exs</string>
+	</array>
+
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>ex</string>
+	
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	
+	<key>BBLMReferenceSearchURLTemplate</key>
+	<string>https://hexdocs.pm/elixir/search.html?q=__SYMBOLNAME__</string>
+
+	<key>BBLMDashDocsets</key>
+	<array>
+		<string>elixir</string>
+		<string>erl</string>
+	</array>
+	
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+
+	<key>BBLMScansFunctions</key>
+	<true/>
+
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	
+	<key>BBLMLanguageServerInfo</key>
+	<dict>
+		<key>ServerCommand</key>
+		<string>language_server.sh</string>
+	</dict>
+	
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>abs</string>
+		<string>alias!</string>
+		<string>and</string>
+		<string>apply</string>
+		<string>binary_part</string>
+		<string>binding</string>
+		<string>bit_size</string>
+		<string>byte_size</string>
+		<string>def</string>
+		<string>defdelegate</string>
+		<string>defexception</string>
+		<string>defguard</string>
+		<string>defguardp</string>
+		<string>defimpl</string>
+		<string>defmacro</string>
+		<string>defmacrop</string>
+		<string>defmodule</string>
+		<string>defoverridable</string>
+		<string>defp</string>
+		<string>defprotocol</string>
+		<string>defstruct</string>
+		<string>destructure</string>
+		<string>div</string>
+		<string>elem</string>
+		<string>exit</string>
+		<string>function_exported?</string>
+		<string>get_and_update_in</string>
+		<string>get_in</string>
+		<string>hd</string>
+		<string>if</string>
+		<string>in</string>
+		<string>inspect</string>
+		<string>is_atom</string>
+		<string>is_binary</string>
+		<string>is_bitstring</string>
+		<string>is_boolean</string>
+		<string>is_float</string>
+		<string>is_function</string>
+		<string>is_integer</string>
+		<string>is_list</string>
+		<string>is_map</string>
+		<string>is_nil</string>
+		<string>is_number</string>
+		<string>is_pid</string>
+		<string>is_port</string>
+		<string>is_reference</string>
+		<string>is_tuple</string>
+		<string>length</string>
+		<string>macro_exported?</string>
+		<string>make_ref</string>
+		<string>map_size</string>
+		<string>match?</string>
+		<string>max</string>
+		<string>min</string>
+		<string>node</string>
+		<string>not</string>
+		<string>or</string>
+		<string>pop_in</string>
+		<string>put_elem</string>
+		<string>put_in</string>
+		<string>raise</string>
+		<string>rem</string>
+		<string>reraise</string>
+		<string>round</string>
+		<string>self</string>
+		<string>send</string>
+		<string>spawn</string>
+		<string>spawn_link</string>
+		<string>spawn_monitor</string>
+		<string>struct</string>
+		<string>throw</string>
+		<string>tl</string>
+		<string>to_charlist</string>
+		<string>to_string</string>
+		<string>trunc</string>
+		<string>tuple_size</string>
+		<string>unless</string>
+		<string>update_in</string>
+		<string>use</string>
+		<string>var!</string>
+		<string>do</string>
+		<string>do:</string>
+		<string>end</string>
+		<string>alias</string>
+		<string>case</string>
+		<string>cond</string>
+		<string>fn</string>
+		<string>for</string>
+		<string>import</string>
+		<string>quote</string>
+		<string>receive</string>
+		<string>require</string>
+		<string>super</string>
+		<string>try</string>
+		<string>unquote</string>
+		<string>unquote_splicing</string>
+		<string>when</string>
+		<string>with</string>
+	</array>
+
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>__CALLER__</string>
+		<string>__DIR__</string>
+		<string>__ENV__</string>
+		<string>__MODULE__</string>
+		<string>__aliases__</string>
+		<string>__block__</string>
+		<string>Access</string>
+		<string>Agent</string>
+		<string>Application</string>
+		<string>Atom</string>
+		<string>Base</string>
+		<string>Bitwise</string>
+		<string>Calendar</string>
+		<string>ISO</string>
+		<string>TimeZoneDatabase</string>
+		<string>UTCOnlyTimeZoneDatabase</string>
+		<string>Code</string>
+		<string>Config</string>
+		<string>Provider</string>
+		<string>Reader</string>
+		<string>Date</string>
+		<string>Range</string>
+		<string>DateTime</string>
+		<string>DynamicSupervisor</string>
+		<string>Enum</string>
+		<string>Enumerable</string>
+		<string>Exception</string>
+		<string>File</string>
+		<string>Stat</string>
+		<string>Stream</string>
+		<string>Error</string>
+		<string>Float</string>
+		<string>Function</string>
+		<string>GenServer</string>
+		<string>IO</string>
+		<string>Inspect</string>
+		<string>Algebra</string>
+		<string>Opts</string>
+		<string>Integer</string>
+		<string>Kernel</string>
+		<string>ParallelCompiler</string>
+		<string>SpecialForms</string>
+		<string>Keyword</string>
+		<string>List</string>
+		<string>Chars</string>
+		<string>Macro</string>
+		<string>Env</string>
+		<string>Map</string>
+		<string>MapSet</string>
+		<string>Module</string>
+		<string>NaiveDateTime</string>
+		<string>Node</string>
+		<string>OptionParser</string>
+		<string>Path</string>
+		<string>Port</string>
+		<string>Process</string>
+		<string>Protocol</string>
+		<string>Range</string>
+		<string>Record</string>
+		<string>Regex</string>
+		<string>Registry</string>
+		<string>Stream</string>
+		<string>String</string>
+		<string>StringIO</string>
+		<string>Supervisor</string>
+		<string>System</string>
+		<string>Task</string>
+		<string>Time</string>
+		<string>Tuple</string>
+		<string>URI</string>
+		<string>Version</string>
+				
+		<string>@behaviour</string>
+		<string>@doc</string>
+		<string>@moduledoc</string>
+		<string>@name</string>
+		
+		<!-- A random selection of Erlang functions -->
+		<string>:base64</string>
+		<string>:beam_lib</string>
+		<string>:binary</string>
+		<string>:c</string>
+		<string>:calendar</string>
+		<string>:crypto</string>
+		<string>:dets</string>
+		<string>:digraph</string>
+		<string>:digraph_utils</string>
+		<string>:ets</string>
+		<string>:file_sorter</string>
+		<string>:filelib</string>
+		<string>:filename</string>
+		<string>:gb_sets</string>
+		<string>:gb_trees</string>
+		<string>:gen_event</string>
+		<string>:gen_fsm</string>
+		<string>:gen_server</string>
+		<string>:gen_statem</string>
+		<string>:gen_tcp</string>
+		<string>:gen_udp</string>
+		<string>:io</string>
+		<string>:io_lib</string>
+		<string>:math</string>
+		<string>:mnesia</string>
+		<string>:mnesia_frag_hash</string>
+		<string>:mnesia_registry</string>
+		<string>:ms_transform</string>
+		<string>:orddict</string>
+		<string>:ordsets</string>
+		<string>:pool</string>
+		<string>:proc_lib</string>
+		<string>:proplists</string>
+		<string>:qlc</string>
+		<string>:queue</string>
+		<string>:rand</string>
+		<string>:random</string>
+		<string>:re</string>
+		<string>:sets</string>
+		<string>:shell</string>
+		<string>:shell_default</string>
+		<string>:shell_docs</string>
+		<string>:slave</string>
+		<string>:supervisor</string>
+		<string>:supervisor_bridge</string>
+		<string>:sys</string>
+		<string>:timer</string>
+		<string>:unicode</string>
+		<string>:uri_string</string>
+		<string>:zip</string>
+		<string>:zlib</string>
+<string>:</string>		
+	</array>
+	
+	<key>BBLMCommentLineDefault</key>
+	<string>#</string>
+
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_:?@!%</string>
+		
+		<key>Comment Pattern</key>
+		<string><![CDATA[
+		(\#.*?$)
+		]]></string>
+		
+		<key>String Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(?s: ("""(\\"|[^"]|"{1,2}(?!"))*""")) | (?# double-quote heredoc)
+			(?s: ('''(\\'|[^']|'{1,2}(?!'))*''')) | (?# single-quote heredoc)
+			("(\\"|[^"])*") | (?# double-quoted string)
+			('(\\'|[^'])*')	  (?# single-quoted char list)
+		)
+		]]>
+		</string>
+		
+		<key>Function Pattern</key>
+		<string><![CDATA[
+		(?x:
+			(?P<indent>^\s*)
+			(?P<function>
+				def(macro)?p?\s+
+				(?P<function_name>[a-zA-Z0-9_:?@!%]+)
+				(
+					(?s:.+?)\n(?P=indent)end\b |
+					(.+\sdo:.+)
+				)
+			)
+		)
+		]]>
+		</string>
+		
+		<key>Skip Pattern</key>
+		<string><![CDATA[
+		(?x: (?P>comment) | (?P>string) )
+		]]>
+		</string>
+	</dict>
+
+</dict>
+</plist>

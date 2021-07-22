@@ -1,0 +1,4 @@
+#INDENT#cond do
+  #PLACEHOLDERSTART#condition1#PLACEHOLDEREND# ->
+    #INSERTION#
+end

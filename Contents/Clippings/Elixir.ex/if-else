@@ -1,0 +1,5 @@
+#INDENT#if #SELSTART#condition#SELEND# do
+  #INSERTION#
+else
+  #INSERTION#
+end

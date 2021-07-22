@@ -1,0 +1,3 @@
+#INDENT#receive do
+  {#INSERTION#} ->
+    #INSERTION#

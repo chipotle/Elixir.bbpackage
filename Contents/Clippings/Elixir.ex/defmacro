@@ -1,0 +1,3 @@
+#INDENT#defmacro #INSERTION# do
+  #INSERTION#
+end

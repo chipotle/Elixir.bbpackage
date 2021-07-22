@@ -1,0 +1,3 @@
+#INLINE##INDENT#defmodule #INSERTION# do
+  #INSERTION#
+end
