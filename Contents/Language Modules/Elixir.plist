@@ -49,6 +49,23 @@
 	
 	<key>BBLMKeywordList</key>
 	<array>
+		<string>@</string>
+		<string>@behaviour</string>
+		<string>@doc</string>
+		<string>@impl</string>
+		<string>@moduledoc</string>
+		<string>@name</string>
+		<string>~c</string>
+		<string>~C</string>
+		<string>~D</string>
+		<string>~N</string>
+		<string>~r</string>
+		<string>~R</string>
+		<string>~s</string>
+		<string>~S</string>
+		<string>~T</string>
+		<string>~w</string>
+		<string>~W</string>
 		<string>abs</string>
 		<string>after</string>
 		<string>alias!</string>
@@ -160,24 +177,6 @@
 		<string>when</string>
 		<string>with</string>
 		<string>xor</string>
-
-		<string>@behaviour</string>
-		<string>@doc</string>
-		<string>@moduledoc</string>
-		<string>@name</string>
-		<string>@</string>
-		
-		<string>~c</string>
-		<string>~C</string>
-		<string>~D</string>
-		<string>~N</string>
-		<string>~r</string>
-		<string>~R</string>
-		<string>~s</string>
-		<string>~S</string>
-		<string>~T</string>
-		<string>~w</string>
-		<string>~W</string>
 	</array>
 
 	<key>BBLMPredefinedNameList</key>
