@@ -270,10 +270,10 @@
 		<key>String Pattern</key>
 		<string><![CDATA[
 		(?x:
-			(?s: ("""(\\"|[^"]|"{1,2}(?!"))*""")) | (?# double-quote heredoc)
-			(?s: ('''(\\'|[^']|'{1,2}(?!'))*''')) | (?# single-quote heredoc)
+			(?s: (""".*?""")) | (?# double-quote heredoc)
+			(?s: ('''.*?''')) | (?# single-quote heredoc)
 			("(\\"|[^"])*") | (?# double-quoted string)
-			('(\\'|[^'])*')	  (?# single-quoted char list)
+			('(\\'|[^'])*') (?# single-quoted char list)
 		)
 		]]>
 		</string>
@@ -300,6 +300,5 @@
 		]]>
 		</string>
 	</dict>
-
 </dict>
 </plist>
