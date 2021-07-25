@@ -50,13 +50,18 @@
 	<key>BBLMKeywordList</key>
 	<array>
 		<string>abs</string>
+		<string>after</string>
 		<string>alias!</string>
+		<string>alias</string>
 		<string>and</string>
 		<string>apply</string>
 		<string>binary_part</string>
 		<string>binding</string>
 		<string>bit_size</string>
 		<string>byte_size</string>
+		<string>case</string>
+		<string>catch</string>
+		<string>cond</string>
 		<string>def</string>
 		<string>defdelegate</string>
 		<string>defexception</string>
@@ -69,17 +74,29 @@
 		<string>defoverridable</string>
 		<string>defp</string>
 		<string>defprotocol</string>
+		<string>defrecord</string>
+		<string>defrecordp</string>
 		<string>defstruct</string>
 		<string>destructure</string>
 		<string>div</string>
+		<string>do:</string>
+		<string>do</string>
 		<string>elem</string>
+		<string>else</string>
+		<string>end</string>
 		<string>exit</string>
+		<string>fn</string>
+		<string>for:</string>
+		<string>for</string>
 		<string>function_exported?</string>
+		<string>function</string>
 		<string>get_and_update_in</string>
 		<string>get_in</string>
 		<string>hd</string>
 		<string>if</string>
+		<string>import</string>
 		<string>in</string>
+		<string>inlist</string>
 		<string>inspect</string>
 		<string>is_atom</string>
 		<string>is_binary</string>
@@ -96,6 +113,7 @@
 		<string>is_port</string>
 		<string>is_reference</string>
 		<string>is_tuple</string>
+		<string>lc</string>
 		<string>length</string>
 		<string>macro_exported?</string>
 		<string>make_ref</string>
@@ -109,44 +127,57 @@
 		<string>pop_in</string>
 		<string>put_elem</string>
 		<string>put_in</string>
+		<string>quote</string>
 		<string>raise</string>
+		<string>receive</string>
 		<string>rem</string>
+		<string>require</string>
 		<string>reraise</string>
 		<string>round</string>
 		<string>self</string>
 		<string>send</string>
-		<string>spawn</string>
+		<string>setup</string>
 		<string>spawn_link</string>
 		<string>spawn_monitor</string>
+		<string>spawn</string>
 		<string>struct</string>
+		<string>super</string>
+		<string>teardown</string>
+		<string>test</string>
 		<string>throw</string>
 		<string>tl</string>
 		<string>to_charlist</string>
 		<string>to_string</string>
 		<string>trunc</string>
+		<string>try</string>
 		<string>tuple_size</string>
 		<string>unless</string>
+		<string>unquote_splicing</string>
+		<string>unquote</string>
 		<string>update_in</string>
 		<string>use</string>
 		<string>var!</string>
-		<string>do</string>
-		<string>do:</string>
-		<string>end</string>
-		<string>alias</string>
-		<string>case</string>
-		<string>cond</string>
-		<string>fn</string>
-		<string>for</string>
-		<string>import</string>
-		<string>quote</string>
-		<string>receive</string>
-		<string>require</string>
-		<string>super</string>
-		<string>try</string>
-		<string>unquote</string>
-		<string>unquote_splicing</string>
 		<string>when</string>
 		<string>with</string>
+		<string>xor</string>
+
+		<string>@behaviour</string>
+		<string>@doc</string>
+		<string>@moduledoc</string>
+		<string>@name</string>
+		<string>@</string>
+		
+		<string>~c</string>
+		<string>~C</string>
+		<string>~D</string>
+		<string>~N</string>
+		<string>~r</string>
+		<string>~R</string>
+		<string>~s</string>
+		<string>~S</string>
+		<string>~T</string>
+		<string>~w</string>
+		<string>~W</string>
 	</array>
 
 	<key>BBLMPredefinedNameList</key>
@@ -222,65 +253,6 @@
 		<string>Tuple</string>
 		<string>URI</string>
 		<string>Version</string>
-				
-		<string>@behaviour</string>
-		<string>@doc</string>
-		<string>@moduledoc</string>
-		<string>@name</string>
-		
-		<!-- A random selection of Erlang functions -->
-		<string>:base64</string>
-		<string>:beam_lib</string>
-		<string>:binary</string>
-		<string>:c</string>
-		<string>:calendar</string>
-		<string>:crypto</string>
-		<string>:dets</string>
-		<string>:digraph</string>
-		<string>:digraph_utils</string>
-		<string>:ets</string>
-		<string>:file_sorter</string>
-		<string>:filelib</string>
-		<string>:filename</string>
-		<string>:gb_sets</string>
-		<string>:gb_trees</string>
-		<string>:gen_event</string>
-		<string>:gen_fsm</string>
-		<string>:gen_server</string>
-		<string>:gen_statem</string>
-		<string>:gen_tcp</string>
-		<string>:gen_udp</string>
-		<string>:io</string>
-		<string>:io_lib</string>
-		<string>:math</string>
-		<string>:mnesia</string>
-		<string>:mnesia_frag_hash</string>
-		<string>:mnesia_registry</string>
-		<string>:ms_transform</string>
-		<string>:orddict</string>
-		<string>:ordsets</string>
-		<string>:pool</string>
-		<string>:proc_lib</string>
-		<string>:proplists</string>
-		<string>:qlc</string>
-		<string>:queue</string>
-		<string>:rand</string>
-		<string>:random</string>
-		<string>:re</string>
-		<string>:sets</string>
-		<string>:shell</string>
-		<string>:shell_default</string>
-		<string>:shell_docs</string>
-		<string>:slave</string>
-		<string>:supervisor</string>
-		<string>:supervisor_bridge</string>
-		<string>:sys</string>
-		<string>:timer</string>
-		<string>:unicode</string>
-		<string>:uri_string</string>
-		<string>:zip</string>
-		<string>:zlib</string>
-<string>:</string>		
 	</array>
 	
 	<key>BBLMCommentLineDefault</key>
@@ -289,11 +261,11 @@
 	<key>Language Features</key>
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
-		<string>A-Za-z0-9_:?@!%</string>
+		<string>A-Za-z0-9_:?@!%~</string>
 		
 		<key>Comment Pattern</key>
 		<string><![CDATA[
-		(\#.*?$)
+		(\#[^({|#>)].*?$)
 		]]></string>
 		
 		<key>String Pattern</key>

@@ -60,9 +60,10 @@ While "Find Symbol in Workspace" is enabled, it generally jumps to Erlang code d
 
 ## Version history
 
-| Release date | elixir-ls version | Notes           |  
-| ------------ | ----------------- | --------------- |  
-| 2021-07-21   | 0.7.0             | initial release |  
+| Release date | elixir-ls | Notes                                     |  
+| ------------ | --------- | ----------------------------------------- |  
+| 2021-07-24   | 0.7.0     | add missing keywords, tweak comment regex |  
+| 2021-07-21   | 0.7.0     | initial release                           |  
 
 ## Credits
 
