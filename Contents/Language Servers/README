@@ -1,1 +1,3 @@
-Unzip the current version of elixir-ls here for language server support!
+Unzip the current version of elixir-ls here for language server support.
+
+Note: This folder should contain the contents of the zip file at this level, not a folder containing them!
