@@ -220,6 +220,7 @@
 				<string>Stream</string>
 				<string>Error</string>
 				<string>Float</string>
+				<string>Fragment</string>
 				<string>Function</string>
 				<string>GenServer</string>
 				<string>IO</string>
