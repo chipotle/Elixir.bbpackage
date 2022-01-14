@@ -1,10 +1,10 @@
 # Elixir Package for BBEdit
 
-Provides BBEdit Language support for [Elixir](http://elixir-lang.org).
+Provides BBEdit Language support for [Elixir](http://elixir-lang.org). This package requires BBEdit 11 or higher; it has only been tested with BBEdit 14.
 
 ## Features
 
-- Syntax highlighting with keywords current through Elixir 1.12
+- Syntax highlighting with keywords current through Elixir 1.13
 - Clippings for some common Elixir structures
 - Bundled elixir-ls Language Server for smart completion and formatting (BBEdit 14+ only)
 
@@ -27,6 +27,10 @@ Download the release version of the package with elixir-ls included, and double-
 3. Unzip that release into a `Language Servers` subdirectory of the `Contents` subdirectory of the BBEdit package.
 
 4. Now double-click **Elixir.bbpackage**.
+
+### The wrong way
+
+Don't muck about with BBEdit's application package to try and install this. It will lead to sadness.
 
 ## Configuration
 
@@ -62,6 +66,7 @@ While "Find Symbol in Workspace" is enabled, it generally jumps to Erlang code d
 
 | Release date | elixir-ls | Notes                                     |  
 | ------------ | --------- | ----------------------------------------- |  
+| 2022-01-14   | 0.9.0     | internal re-org, updates for Elixir 1.13  |
 | 2021-07-24   | 0.7.0     | add missing keywords, tweak comment regex |  
 | 2021-07-21   | 0.7.0     | initial release                           |  
 
