@@ -4,7 +4,7 @@ Provides BBEdit Language support for [Elixir](http://elixir-lang.org). This pack
 
 ## Features
 
-- Syntax highlighting with keywords current through Elixir 1.13
+- Syntax highlighting with keywords current through Elixir 1.14
 - Clippings for some common Elixir structures
 - Bundled elixir-ls Language Server for smart completion and formatting (BBEdit 14+ only)
 
