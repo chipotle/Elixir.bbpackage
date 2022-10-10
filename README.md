@@ -28,10 +28,6 @@ Download the release version of the package with elixir-ls included, and double-
 
 4. Now double-click **Elixir.bbpackage**.
 
-### The wrong way
-
-Don't muck about with BBEdit's application package to try and install this. It will lead to sadness.
-
 ## Configuration
 
 In the Languages panel of BBEdit's Preferences, you can check the Elixir package's defaults and make any changes.
@@ -47,7 +43,7 @@ Recommendations:
 - Turn on "Auto-expand tabs" and set tab width to 2
 - Map the `eex` extension to HTML
 
-BBEdit's codeless language modules don't support extending/embedding existing languages, so Elixir code inside EEX templates aren't highlighted.
+BBEdit's codeless language modules don't support extending/embedding existing languages, so Elixir code inside EEX templates isn't highlighted.
 
 ## Language server features
 
