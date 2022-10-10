@@ -83,6 +83,7 @@
 				<string>case</string>
 				<string>catch</string>
 				<string>cond</string>
+				<string>dbg</string>
 				<string>def</string>
 				<string>defdelegate</string>
 				<string>defexception</string>
@@ -242,6 +243,7 @@
 				<string>NaiveDateTime</string>
 				<string>Node</string>
 				<string>OptionParser</string>
+				<string>PartitionSupervisor</string>
 				<string>Path</string>
 				<string>Port</string>
 				<string>Process</string>

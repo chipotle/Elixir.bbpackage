@@ -64,11 +64,12 @@ While "Find Symbol in Workspace" is enabled, it generally jumps to Erlang code d
 
 ## Version history
 
-| Release date | elixir-ls | Notes                                     |  
-| ------------ | --------- | ----------------------------------------- |  
-| 2022-01-14   | 0.9.0     | internal re-org, updates for Elixir 1.13  |
-| 2021-07-24   | 0.7.0     | add missing keywords, tweak comment regex |  
-| 2021-07-21   | 0.7.0     | initial release                           |  
+| Version | Release date | Notes                                            |  
+| ------- | ------------ | ------------------------------------------------ |  
+| 1.2.0   | 2022-10-10   | Elixir 1.14, elixir-ls 0.11.0                    |  
+| 1.1.0   | 2022-01-14   | Elixir 1.13, elixir-ls 0.9.0                     |  
+| 1.0.2   | 2021-07-25   | add keywords, tweak comment regex                |  
+| 1.0.1   | 2021-07-21   | initial release for Elixir 1.12, elixir-ls 0.7.0 |  
 
 ## Credits
 
