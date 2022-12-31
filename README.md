@@ -62,6 +62,7 @@ While "Find Symbol in Workspace" is enabled, it generally jumps to Erlang code d
 
 | Version | Release date | Notes                                            |  
 | ------- | ------------ | ------------------------------------------------ |  
+| 1.2.1   | 2022-12-31   | Elixir 1.14, elixir-ls 0.12.0                    |  
 | 1.2.0   | 2022-10-10   | Elixir 1.14, elixir-ls 0.11.0                    |  
 | 1.1.0   | 2022-01-14   | Elixir 1.13, elixir-ls 0.9.0                     |  
 | 1.0.2   | 2021-07-25   | add keywords, tweak comment regex                |  
