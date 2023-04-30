@@ -31,7 +31,7 @@
 		<string>elixir</string>
 		<string>erl</string>
 	</array>
-	
+
 	<key>BBLMIsCaseSensitive</key>
 	<true/>
 
@@ -40,13 +40,19 @@
 
 	<key>BBLMColorsSyntax</key>
 	<true/>
-	
+
 	<key>BBLMLanguageServerInfo</key>
 	<dict>
 		<key>ServerCommand</key>
 		<string>language_server.sh</string>
 	</dict>
-	
+
+	<key>BBLMSpellableRunKinds</key>
+	<array>
+		<string>com.barebones.bblm.line-comment</string>
+		<string>com.barebones.bblm.block-comment</string>
+	</array>
+
 	<key>BBLMKeywords</key>
 	<array>
 		<dict>
@@ -184,7 +190,7 @@
 				<string>xor</string>
 			</array>
 		</dict>
-		
+
 		<dict>
 			<key>RunKind</key> <string>com.barebones.bblm.predefined-symbol</string>
 			<key>Keywords</key>
@@ -265,7 +271,7 @@
 			</array>
 		</dict>
 	</array>
-	
+
 	<key>BBLMCommentLineDefault</key>
 	<string>#</string>
 
@@ -273,12 +279,12 @@
 	<dict>
 		<key>Identifier and Keyword Character Class</key>
 		<string>A-Za-z0-9_:?@!%~</string>
-		
+
 		<key>Comment Pattern</key>
 		<string><![CDATA[
 		(\#.*$)|(\b_[a-z]*)
 		]]></string>
-		
+
 		<key>String Pattern</key>
 		<string><![CDATA[
 		(?x:
@@ -289,7 +295,7 @@
 		)
 		]]>
 		</string>
-		
+
 		<key>Function Pattern</key>
 		<string><![CDATA[
 		(?x:
@@ -305,7 +311,7 @@
 		)
 		]]>
 		</string>
-		
+
 		<key>Skip Pattern</key>
 		<string><![CDATA[
 		(?x: (?P>comment) | (?P>string) )
