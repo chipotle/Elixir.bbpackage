@@ -38,6 +38,8 @@ Defaults (should be configured "out of the box"):
 - Dash docsets should be configured for `elixir` and `erl` (Erlang)
 - The language server should be enabled (BBEdit 14+ only), with the command `language_server.sh`, no arguments, language ID `elixir`.
 
+The package can use different versions of elixir-ls if they are installed by setting the "Server Command" command path in BBEdit's Language Preference pane. The path should point to the `language_server.sh` file of the desired installation.
+
 Recommendations:
 
 - Turn on "Auto-expand tabs" and set tab width to 2
