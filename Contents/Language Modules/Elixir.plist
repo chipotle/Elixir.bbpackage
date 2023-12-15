@@ -304,7 +304,7 @@
 				def(macro)?p?\s+
 				(?P<function_name>[a-zA-Z0-9_:?@!%]+)
 				(
-					(?s:.+?)\n(?P=indent)end\b |
+					(?s:.+)\n(?P=indent)end\b |
 					(.+\sdo:.+)
 				)
 			)
