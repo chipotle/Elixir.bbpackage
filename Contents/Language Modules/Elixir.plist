@@ -299,12 +299,12 @@
 		<key>Function Pattern</key>
 		<string><![CDATA[
 		(?x:
-			(?P<indent>^\s*)
+			(?P<indent>^[ \t]*)
 			(?P<function>
 				def(macro)?p?\s+
 				(?P<function_name>[a-zA-Z0-9_:?@!%]+)
 				(
-					(?s:.+)\n(?P=indent)end\b |
+				    (.*\n)(^(?!(?P=indent)end\b).*$\n?)*(?P=indent)end\b | (?# First consume the remainder of the first line--that contains the function name--if there is any remainder. Then consume all lines that don't begin with the indented "end" we're looking for. Finally, consume the "end" token.)
 					(.+\sdo:.+)
 				)
 			)
