@@ -4,7 +4,7 @@ Provides BBEdit Language support for [Elixir](http://elixir-lang.org). This pack
 
 ## Features
 
-- Syntax highlighting with keywords current through Elixir 1.14
+- Syntax highlighting with keywords current through Elixir 1.15
 - Clippings for some common Elixir structures
 - Bundled elixir-ls Language Server for smart completion and formatting (BBEdit 14+ only)
 
@@ -64,6 +64,7 @@ While "Find Symbol in Workspace" is enabled, it generally jumps to Erlang code d
 
 | Version | Release date | Notes                                            |  
 | ------- | ------------ | ------------------------------------------------ |  
+| 1.2.3   | 2023-12-17   | Regex bug fix for 1.2.2 (Erik Rose)              |  
 | 1.2.2   | 2023-12-15   | Elixir 1.15, elixir-ls 0.17.10, bug fixes        |  
 | 1.2.1   | 2022-12-31   | Elixir 1.14, elixir-ls 0.12.0                    |  
 | 1.2.0   | 2022-10-10   | Elixir 1.14, elixir-ls 0.11.0                    |  
